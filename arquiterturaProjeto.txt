@@ -1,0 +1,8 @@
+Olá, estou passando por aqui para explicar como eu organizei o projeto então vamos lá.
+
+// DESCRIÇÃO
+
+O meu projeto contém bastantes arquivos css e js, então para manter uma organização melhor fiz a divisão dos arquivos
+colocando cada um deles em pastas diferentes. Dentro de public tem as pastas css(o lugar onde eu coloquei os arquivos css),
+img(o lugar que está as imagens) e por último a pasta JS. ATENÇÃO dentro de css eu fiz a divisão dos css assim "componentizando o css"
+para ficar mais fácil de fazer a manuntenção depois.

@@ -1,0 +1,20 @@
+/* Text Baloon */
+
+main {
+    padding-top: 50px;
+    justify-content: space-between;
+	flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.text-area {
+	max-width: 500px;
+}
+
+.text-area h1 {
+	line-height: 45px;
+}
+
+.text-area p {
+	padding-top: 25px;
+}

@@ -1,0 +1,38 @@
+.plans {
+    flex-direction: column;
+}
+
+.card-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-box {
+    height: 450px;
+    width: 330px;
+    background-color: #7E57C2;
+    padding: 75px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.card-information {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.card-information ul {
+    list-style: none;
+}
+
+.card-information ul li::after {
+    content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: white;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}

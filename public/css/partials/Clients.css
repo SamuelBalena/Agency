@@ -1,0 +1,43 @@
+.clients {
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients img {
+    height: 100px;
+    width: 100px;
+}
+
+.card-client {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 250px;
+    min-width: 175px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-position {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.card-client p {
+    padding: 5px;
+    text-align: center;
+}
+
+.title-card {
+    max-width: 400px;
+    color: #363636;
+    font-weight: bold;
+}
+
+.number-card {
+    font-weight: bold;
+    color: #7E57C2;
+}
